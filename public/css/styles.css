@@ -1,0 +1,58 @@
+.modal__wrap-jp {
+  padding-top: 20px;
+}
+
+.modal__wrap-jp h2 {
+  font-size: 18px;
+}
+
+.modal__wrap-btn-jp {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.modal__wrap-btn-jp button {
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  color: #fff;
+  padding: 6px 20px;
+}
+
+.modal__wrap-btn-jp button:first-child {
+  background: #b32201;
+  margin-right: 15px;
+}
+
+.modal__wrap-btn-jp button:last-child {
+  background: #03ad00;
+}
+
+.modal__wrap-btn-jp button:focus {
+  outline: none;
+}
+
+.modal__wrap-container {
+  width: 40%;
+}
+
+.loader {
+  border: 3px solid #f3f3f3; /* Light grey */
+  border-top: 3px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  display: block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
